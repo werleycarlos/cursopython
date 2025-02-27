@@ -31,3 +31,4 @@ df_vendas = pd.DataFrame(dados_prontos, columns=['produto', 'cidade', 'valor', '
 df_vendas.to_csv('vendas.csv', index=False)
 
 print("Deu tudo certo! O arquivo foi salvo")
+

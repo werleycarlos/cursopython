@@ -40,7 +40,6 @@ for linha in alunos_encontrados:
 import pandas as pd
 pedido = """ SELECT * FROM Alunos """
 
-
 estruturadedados = pd.read_sql_query(pedido, conn)
 
 estruturadedados
